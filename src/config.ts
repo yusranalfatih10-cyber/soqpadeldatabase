@@ -3,8 +3,7 @@
 
 export const CONFIG = {
   // Google Apps Script Web App URL
-  // Replace this with your deployed Apps Script URL
-  GAS_URL: 'https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID/exec',
+  GAS_URL: 'https://script.google.com/macros/s/AKfycbxfPEUw6kFoR67jMz43fXorFbo_TfXrYwKPgxWzAvgGkNeFhRCCa9zkgVMl6pXNO_2y/exec',
   
   // Logo URL
   LOGO_URL: 'https://img.sanishtech.com/u/cb70e0abf0459322f04ece405a754457.jpg',
