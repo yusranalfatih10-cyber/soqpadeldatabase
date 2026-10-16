@@ -3,7 +3,7 @@
 
 export const CONFIG = {
   // Google Apps Script Web App URL
-  GAS_URL: 'https://script.google.com/macros/s/AKfycbxfPEUw6kFoR67jMz43fXorFbo_TfXrYwKPgxWzAvgGkNeFhRCCa9zkgVMl6pXNO_2y/exec',
+  GAS_URL: 'https://script.google.com/macros/s/AKfycbxYdTqr4JeFFtH8lTPonv2-h1InC934F7CictkYGM2UpmxiWuFgcFzxD7i1K1dOIICEEA/exec',
   
   // Logo URL
   LOGO_URL: 'https://img.sanishtech.com/u/cb70e0abf0459322f04ece405a754457.jpg',
