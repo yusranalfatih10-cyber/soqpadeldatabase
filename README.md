@@ -120,7 +120,7 @@ Konfigurasi aplikasi (batas pemain, ukuran file, dll.)
 
 ## Logo
 
-Logo resmi diambil dari: `https://wealthy-magenta-fymy1fwv.edgeone.dev/file.png`
+Logo resmi SOQ.COMM PADEL LEAGUE (tersimpan di konfigurasi `src/config.ts`)
 
 ---
 
