@@ -21,6 +21,12 @@ export default function ConfigNotice() {
               deploy Google Apps Script dan update <code className="bg-amber-100 px-1 rounded">CONFIG.GAS_URL</code> di <code className="bg-amber-100 px-1 rounded">src/config.ts</code>. 
               Lihat file <code className="bg-amber-100 px-1 rounded">public/google-apps-script/Code.gs</code> untuk kode backend.
             </p>
+            <a
+              href="#/panduan-deploy"
+              className="text-sm text-amber-900 font-medium underline mt-1 inline-block hover:text-amber-700"
+            >
+              📖 Lihat Panduan Deploy Lengkap →
+            </a>
           </div>
           <button
             onClick={() => setDismissed(true)}

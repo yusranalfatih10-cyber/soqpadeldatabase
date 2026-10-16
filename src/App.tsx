@@ -8,6 +8,7 @@ import StatusPage from './pages/StatusPage';
 import AdminLoginPage from './pages/AdminLoginPage';
 import AdminDashboard from './pages/AdminDashboard';
 import AdminDetailPage from './pages/AdminDetailPage';
+import DeployGuide from './pages/DeployGuide';
 import Header from './components/Header';
 import ConfigNotice from './components/ConfigNotice';
 import type { TeamData, PlayerData } from './types';
@@ -83,6 +84,7 @@ export default function App() {
             <Route path="/admin" element={<AdminLoginPage />} />
             <Route path="/admin/dashboard" element={<AdminDashboard />} />
             <Route path="/admin/detail/:id" element={<AdminDetailPage />} />
+            <Route path="/panduan-deploy" element={<DeployGuide />} />
           </Routes>
         </div>
       </HashRouter>

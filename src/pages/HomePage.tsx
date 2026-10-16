@@ -130,6 +130,17 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="bg-gradient-to-r from-teal-800 to-sky-800 text-white py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="flex flex-wrap justify-center gap-4 mb-4">
+            <Link to="/panduan-deploy" className="text-teal-200 hover:text-white text-sm underline transition-colors">
+              📖 Panduan Deploy
+            </Link>
+            <Link to="/daftar" className="text-teal-200 hover:text-white text-sm underline transition-colors">
+              📝 Daftar Tim
+            </Link>
+            <Link to="/cek-status" className="text-teal-200 hover:text-white text-sm underline transition-colors">
+              🔍 Cek Status
+            </Link>
+          </div>
           <p className="text-teal-200 text-sm">
             © {CONFIG.COMPETITION_YEAR} {CONFIG.COMPETITION_NAME} • {CONFIG.REGION}
           </p>
