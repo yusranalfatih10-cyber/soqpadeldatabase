@@ -7,7 +7,7 @@ export const CONFIG = {
   GAS_URL: 'https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID/exec',
   
   // Logo URL
-  LOGO_URL: 'https://youthful-salmon-sgcz0ogx.edgeone.dev/',
+  LOGO_URL: 'https://img.sanishtech.com/u/cb70e0abf0459322f04ece405a754457.jpg',
   
   // Competition info
   COMPETITION_NAME: 'SOQ.COMM PADEL LEAGUE',
