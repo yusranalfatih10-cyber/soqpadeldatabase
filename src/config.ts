@@ -1,0 +1,29 @@
+// Configuration for SOQ.COMM PADEL LEAGUE Registration System
+// Update GAS_URL after deploying Google Apps Script as Web App
+
+export const CONFIG = {
+  // Google Apps Script Web App URL
+  GAS_URL: 'https://script.google.com/macros/s/AKfycbxYdTqr4JeFFtH8lTPonv2-h1InC934F7CictkYGM2UpmxiWuFgcFzxD7i1K1dOIICEEA/exec',
+  
+  // Logo URL
+  LOGO_URL: 'https://img.sanishtech.com/u/cb70e0abf0459322f04ece405a754457.jpg',
+  
+  // Competition info
+  COMPETITION_NAME: 'SOQ.COMM PADEL LEAGUE',
+  COMPETITION_YEAR: '2026',
+  REGION: 'Provinsi Papua Barat Daya',
+  
+  // File upload limits (in bytes)
+  MAX_LOGO_SIZE: 2 * 1024 * 1024, // 2MB
+  MAX_PHOTO_SIZE: 2 * 1024 * 1024, // 2MB
+  ALLOWED_IMAGE_TYPES: ['image/jpeg', 'image/png', 'image/webp'],
+  
+  // Player limits
+  MIN_PLAYERS: 2,
+  MAX_PLAYERS: 20,
+  
+  // Admin credentials check (done on backend, not stored here)
+  ADMIN_SESSION_KEY: 'soq_admin_session',
+};
+
+export const LOGO_URL = CONFIG.LOGO_URL;
